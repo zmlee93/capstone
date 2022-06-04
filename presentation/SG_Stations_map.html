@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e8a254de596b482ca4b63c85e5f29fe3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_e8a254de596b482ca4b63c85e5f29fe3" ></div>
+        
+</body>
+<script>    
+    
+            var map_e8a254de596b482ca4b63c85e5f29fe3 = L.map(
+                "map_e8a254de596b482ca4b63c85e5f29fe3",
+                {
+                    center: [1.3469947058823533, 103.82489470588237],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11.5,
+                    zoomControl: false,
+                    preferCanvas: false,
+                    scrollWheelZoom: false,
+                    dragging: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_85396799a4214329843dcb79f70ddffb = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+            var marker_54f8742e73a44833b73e3f4683ba6685 = L.marker(
+                [1.4172, 103.74855],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_3d562061bc64409cb4d74d72abdc3a2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd90ea5b24034fcb8ab84aa8466e5f24 = $(`<div id="html_dd90ea5b24034fcb8ab84aa8466e5f24" style="width: 100.0%; height: 100.0%;">Woodlands Road</div>`)[0];
+            popup_3d562061bc64409cb4d74d72abdc3a2b.setContent(html_dd90ea5b24034fcb8ab84aa8466e5f24);
+        
+
+        marker_54f8742e73a44833b73e3f4683ba6685.bindPopup(popup_3d562061bc64409cb4d74d72abdc3a2b)
+        ;
+
+        
+    
+    
+            var marker_a3f036efb05b478ba40583eae15718d4 = L.marker(
+                [1.44387, 103.78538],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_98b2606e5f244fa3a8b5bfe9760bd93e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c5e9455b35f54fca93964dc6836562a3 = $(`<div id="html_c5e9455b35f54fca93964dc6836562a3" style="width: 100.0%; height: 100.0%;">Woodlands Avenue 9</div>`)[0];
+            popup_98b2606e5f244fa3a8b5bfe9760bd93e.setContent(html_c5e9455b35f54fca93964dc6836562a3);
+        
+
+        marker_a3f036efb05b478ba40583eae15718d4.bindPopup(popup_98b2606e5f244fa3a8b5bfe9760bd93e)
+        ;
+
+        
+    
+    
+            var marker_6fe5975b5b5347da9b76df8c0909935f = L.marker(
+                [1.4168, 103.9673],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_eceef8327177435481a2c46f87ed8f91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcd6fc628c2f4b81b803a42ce10fcbad = $(`<div id="html_fcd6fc628c2f4b81b803a42ce10fcbad" style="width: 100.0%; height: 100.0%;">Pulau Ubin</div>`)[0];
+            popup_eceef8327177435481a2c46f87ed8f91.setContent(html_fcd6fc628c2f4b81b803a42ce10fcbad);
+        
+
+        marker_6fe5975b5b5347da9b76df8c0909935f.bindPopup(popup_eceef8327177435481a2c46f87ed8f91)
+        ;
+
+        
+    
+    
+            var marker_3a56e987585349e78ee33d7a0211d8de = L.marker(
+                [1.3135, 103.9625],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_71749b3aaad144889209b389a71a6c9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b72c1c9f5c384a558e5cbb60c74702da = $(`<div id="html_b72c1c9f5c384a558e5cbb60c74702da" style="width: 100.0%; height: 100.0%;">East Coast Parkway</div>`)[0];
+            popup_71749b3aaad144889209b389a71a6c9f.setContent(html_b72c1c9f5c384a558e5cbb60c74702da);
+        
+
+        marker_3a56e987585349e78ee33d7a0211d8de.bindPopup(popup_71749b3aaad144889209b389a71a6c9f)
+        ;
+
+        
+    
+    
+            var marker_e9cf3c6d9cb6488b8b0d52a2a67d8cb4 = L.marker(
+                [1.2799, 103.8703],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_641f9b89923049aa8789049b5647e4f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28ae3f29f5d84fd781dd0126b7554e50 = $(`<div id="html_28ae3f29f5d84fd781dd0126b7554e50" style="width: 100.0%; height: 100.0%;">Marina Gardens Drive</div>`)[0];
+            popup_641f9b89923049aa8789049b5647e4f1.setContent(html_28ae3f29f5d84fd781dd0126b7554e50);
+        
+
+        marker_e9cf3c6d9cb6488b8b0d52a2a67d8cb4.bindPopup(popup_641f9b89923049aa8789049b5647e4f1)
+        ;
+
+        
+    
+    
+            var marker_2df16cfe0dc54601a2ac11144af8df9e = L.marker(
+                [1.3764, 103.8492],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_c9c082833c06436a83499e52a1c71131 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4108499fd9a24682a3eca18ca891d7a3 = $(`<div id="html_4108499fd9a24682a3eca18ca891d7a3" style="width: 100.0%; height: 100.0%;">Ang Mo Kio Avenue 5</div>`)[0];
+            popup_c9c082833c06436a83499e52a1c71131.setContent(html_4108499fd9a24682a3eca18ca891d7a3);
+        
+
+        marker_2df16cfe0dc54601a2ac11144af8df9e.bindPopup(popup_c9c082833c06436a83499e52a1c71131)
+        ;
+
+        
+    
+    
+            var marker_89b681d4d52b40c1b4899a3ec1f310ab = L.marker(
+                [1.31055, 103.8365],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_9d533d9c5c094c298a9c5ecd577eae8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e70782f715c146308d819d398420ebef = $(`<div id="html_e70782f715c146308d819d398420ebef" style="width: 100.0%; height: 100.0%;">Scotts Road</div>`)[0];
+            popup_9d533d9c5c094c298a9c5ecd577eae8c.setContent(html_e70782f715c146308d819d398420ebef);
+        
+
+        marker_89b681d4d52b40c1b4899a3ec1f310ab.bindPopup(popup_9d533d9c5c094c298a9c5ecd577eae8c)
+        ;
+
+        
+    
+    
+            var marker_2ab1225358534ebcaba0758408c158b9 = L.marker(
+                [1.29377, 103.61843],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_44d278577b44440b9ad31f31ccd35d2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d71e870666044bb82c3edf5fbe9caf5 = $(`<div id="html_1d71e870666044bb82c3edf5fbe9caf5" style="width: 100.0%; height: 100.0%;">Tuas South Avenue 3</div>`)[0];
+            popup_44d278577b44440b9ad31f31ccd35d2b.setContent(html_1d71e870666044bb82c3edf5fbe9caf5);
+        
+
+        marker_2ab1225358534ebcaba0758408c158b9.bindPopup(popup_44d278577b44440b9ad31f31ccd35d2b)
+        ;
+
+        
+    
+    
+            var marker_7343b8a2b89642be8503474f631f135a = L.marker(
+                [1.281, 103.754],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_3b2b6c69b7b34830a4945dbe57d94fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8e0222d56d4477ebcd1cb5714019381 = $(`<div id="html_c8e0222d56d4477ebcd1cb5714019381" style="width: 100.0%; height: 100.0%;">West Coast Highway</div>`)[0];
+            popup_3b2b6c69b7b34830a4945dbe57d94fd3.setContent(html_c8e0222d56d4477ebcd1cb5714019381);
+        
+
+        marker_7343b8a2b89642be8503474f631f135a.bindPopup(popup_3b2b6c69b7b34830a4945dbe57d94fd3)
+        ;
+
+        
+    
+    
+            var marker_b4fe7cc1153f4d26815b70bb2f8e9f85 = L.marker(
+                [1.37288, 103.72244],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_76d7ef9df0ec4340901a1c47e30aab7d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1d5bd5d47c5402ab004507d4307b48b = $(`<div id="html_a1d5bd5d47c5402ab004507d4307b48b" style="width: 100.0%; height: 100.0%;">Old Choa Chu Kang Road</div>`)[0];
+            popup_76d7ef9df0ec4340901a1c47e30aab7d.setContent(html_a1d5bd5d47c5402ab004507d4307b48b);
+        
+
+        marker_b4fe7cc1153f4d26815b70bb2f8e9f85.bindPopup(popup_76d7ef9df0ec4340901a1c47e30aab7d)
+        ;
+
+        
+    
+    
+            var marker_181b279eeecc4c6b981f0a8ecdbed8ed = L.marker(
+                [1.3678, 103.9826],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_3039b254f35c4c2fa44e46953e92ecb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_871883a5cad9456f905d7966c72b79d3 = $(`<div id="html_871883a5cad9456f905d7966c72b79d3" style="width: 100.0%; height: 100.0%;">Upper Changi Road North</div>`)[0];
+            popup_3039b254f35c4c2fa44e46953e92ecb8.setContent(html_871883a5cad9456f905d7966c72b79d3);
+        
+
+        marker_181b279eeecc4c6b981f0a8ecdbed8ed.bindPopup(popup_3039b254f35c4c2fa44e46953e92ecb8)
+        ;
+
+        
+    
+    
+            var marker_2f62108a30bc40d6bd3ee09a1ec1821d = L.marker(
+                [1.3399, 103.8878],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_b11b19f61de147cf95b2335068c9f0c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b822349090e4deb90ada693f1924b25 = $(`<div id="html_4b822349090e4deb90ada693f1924b25" style="width: 100.0%; height: 100.0%;">Kim Chuan Road</div>`)[0];
+            popup_b11b19f61de147cf95b2335068c9f0c0.setContent(html_4b822349090e4deb90ada693f1924b25);
+        
+
+        marker_2f62108a30bc40d6bd3ee09a1ec1821d.bindPopup(popup_b11b19f61de147cf95b2335068c9f0c0)
+        ;
+
+        
+    
+    
+            var marker_d25ff1c2ef08492ca7c2dbb965409bb9 = L.marker(
+                [1.34583, 103.68166],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_25dbd06cce454014a6962cf227d1bf3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d5aa07580538417e9da24fbe5d66d8ac = $(`<div id="html_d5aa07580538417e9da24fbe5d66d8ac" style="width: 100.0%; height: 100.0%;">Nanyang Avenue</div>`)[0];
+            popup_25dbd06cce454014a6962cf227d1bf3c.setContent(html_d5aa07580538417e9da24fbe5d66d8ac);
+        
+
+        marker_d25ff1c2ef08492ca7c2dbb965409bb9.bindPopup(popup_25dbd06cce454014a6962cf227d1bf3c)
+        ;
+
+        
+    
+    
+            var marker_fd7a72db54204b79abc3d561fa5ad3f9 = L.marker(
+                [1.3337, 103.7768],
+                {"noWrap": true}
+            ).addTo(map_e8a254de596b482ca4b63c85e5f29fe3);
+        
+    
+        var popup_acd440f57110425ca6179384e23a460d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41477345608747cc9eb4dd10bb346d18 = $(`<div id="html_41477345608747cc9eb4dd10bb346d18" style="width: 100.0%; height: 100.0%;">Clementi Road</div>`)[0];
+            popup_acd440f57110425ca6179384e23a460d.setContent(html_41477345608747cc9eb4dd10bb346d18);
+        
+
+        marker_fd7a72db54204b79abc3d561fa5ad3f9.bindPopup(popup_acd440f57110425ca6179384e23a460d)
+        ;
+
+        
+    
+</script>
